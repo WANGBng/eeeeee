@@ -64,7 +64,6 @@ public class HomeActivity extends AppCompatActivity {
                 return view == object;
             }
 
-
             @NonNull
             @Override
             public Object instantiateItem(@NonNull ViewGroup container, int position) {
@@ -88,4 +87,5 @@ public class HomeActivity extends AppCompatActivity {
         super.onDestroy();
         handler.removeCallbacksAndMessages(null);
     }
+
 }
