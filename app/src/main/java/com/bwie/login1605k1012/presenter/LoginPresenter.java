@@ -31,7 +31,7 @@ public class LoginPresenter {
             iv = null;
         }
     }
-//01111111111111
+//011111111111111111
 
     // 检验
     public void check() {
